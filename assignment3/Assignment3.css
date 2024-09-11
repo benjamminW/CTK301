@@ -1,0 +1,47 @@
+/* This is a style sheet for assignment3.html CTK Requirements.html and CTK Classes.html for Assignment 3*/
+
+h1 {
+    color: #592202;
+    background-color: brown;
+}
+
+h2 {
+    color: #F29441;
+    background-color: #592202;
+}
+
+#blocktext{
+    color: #FF9933;
+    background-color: #F2BEA0;
+}
+
+h3 {
+    color: #F29441;
+    background-color: brown;
+}
+
+.pushingP {
+    color: #592202;
+    background-color: #F29441;
+}
+
+.spanclass {
+    color: white;
+    background-color: #592202;
+}
+
+/* link time */
+
+a {
+    color: red;
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Was having a problem with the links not turing yellow when i hovered over them, at first i had my hover code over my visited code. After i moved it under the visited code, it worked */ 
