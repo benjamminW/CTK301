@@ -1,0 +1,56 @@
+#purpleblock {
+    background-color: #8795FF;
+}
+
+#yellowblock {
+    background-color: yellow;
+}
+
+.whitetext{
+    color: white;
+}
+
+.bluetext {
+    color: blue;
+
+}
+
+.spanclass {
+    color: orange;
+}
+
+.bluespanclass {
+    color: blue
+}
+
+.Inferno {
+    background-color: yellow;
+    color:black
+}
+
+.redtext {
+    color: red;
+}
+
+.fatherday {
+    background-color: green;
+    color: yellow;
+}
+
+a {
+    color: #0A5301;
+    text-decoration: none;
+}
+
+.gback {
+    background-color: #81EF7D;
+}
+
+.redclass {
+    color: red;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
