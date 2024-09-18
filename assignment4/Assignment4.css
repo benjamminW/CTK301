@@ -1,0 +1,77 @@
+/* This is a style sheet for assignment3.html CTK Requirements.html and CTK Classes.html for Assignment 4*/
+
+h1{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    background-color: #eeeeee;
+    background-image: url(JB\ JAMES.png);
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#blocktext{
+    color: #FF9933;
+    background-color: #592202;
+}
+
+.imgbox{
+    border: 30px solid black;
+    background-color: yellow;
+    padding: 5px;
+    width: 500px;
+}
+.pushingP {
+    color: #592202;
+    background-color: #F29441;
+}
+
+.centerclass {
+    text-align: center;
+}
+
+.justifyclass{
+    text-align: justify;
+}
+
+.spanclass {
+    color: white;
+    background-color: #592202;
+}
+
+/* link time */
+
+a {
+    color: red;
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Was having a problem with the links not turing yellow when i hovered over them, at first i had my hover code over my visited code. After i moved it under the visited code, it worked */ 
