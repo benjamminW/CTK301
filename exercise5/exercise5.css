@@ -1,0 +1,33 @@
+/* style sheet for making lists more button like */ 
+nav ul { 
+    list-style-type: none; /* none, disc, circle, square */
+    margin: 0;
+    padding: 0;
+}
+
+/* 'nav ul li' as a selector would technically work - but you don't need to define all the steps in the nesting */
+nav li {
+    border: 1px solid #000000;
+    width: 200px; 
+    padding: 0px; 
+    /* padding expands */
+    margin-right: 10px; 
+    /* margins overlap, they also don't have or take background colors */
+    background-color: red;
+    display: inline-block;
+    /* horizontal block, since the links are block level elements we need to include that in the display variable */
+}
+
+/* could do nav a without the li and it would work as well */
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    /* padding will take the background color of an element, that is why me moved padding from the list to the links */
+}
+
+nav li a:hover {
+    background-color: maroon;
+}
+
