@@ -6,7 +6,7 @@
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-}
+} 
 
 header{
     grid-column: span 3;
