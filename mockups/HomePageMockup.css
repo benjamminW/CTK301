@@ -63,7 +63,7 @@ nav li a {
 }
 
 nav li a:hover{
-  font-size: 14px;
+  transform: scale(1.1);
   color: white;
 }
 
