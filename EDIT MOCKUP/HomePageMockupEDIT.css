@@ -1,11 +1,17 @@
 body {
-  background-color: #010030;
+  background-image: url(slanted-gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center; 
+  align-content: center;
+
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  background-color: #010030;
+  /* background-color: #010030; */
 }
 
 /* style for dummy columns, delete and replace with your own CSS */
@@ -21,7 +27,7 @@ header{
   height: 100px;
   /* background: rgb(61,60,119);
   background: linear-gradient(180deg, rgba(61,60,119,1) 027%, rgba(1,0,48,1) 100%); */
-  background-color: #010030;
+  /* background-color: #010030; */
   grid-column: span 12;
   color: white;
   display: grid;
@@ -63,7 +69,7 @@ nav li a {
   text-decoration: none;
   display: block;
   padding: 15px;
-  font-size: 12px;
+  font-size: 16spx;
   transition: all .5s;
   
 }
@@ -125,7 +131,7 @@ section h1{
 footer{
   margin-top: 100px;
   margin-bottom: 10px;
-  background-color: #010030;
+  /* background-color: #010030; */
   display: grid;
   text-align: right;
   padding-right: 20px;
@@ -227,6 +233,13 @@ section h1 a:visited {
 .bi:hover {
   transform: scale(1.1);
   }
+
+
+.Contact{
+  align-content: center;
+  
+}
+
 
 
 
