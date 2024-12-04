@@ -5,6 +5,7 @@ body {
   background-attachment: fixed; 
   background-position: center; 
   align-content: center;
+  margin: 0px;
 
 }
 
@@ -23,17 +24,17 @@ body {
 header{
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 24px;
-  width: 1200px;
   height: 100px;
-  /* background: rgb(61,60,119);
-  background: linear-gradient(180deg, rgba(61,60,119,1) 027%, rgba(1,0,48,1) 100%); */
-  /* background-color: #010030; */
   grid-column: span 12;
   color: white;
-  display: grid;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: flex; /* Use flexbox for consistent alignment */
+  justify-content: space-between;
+  align-items: center; /* Align nav and h1 vertically */
+  height: 100px; /* Ensure consistent height */
+
 }
 
 header h1{
@@ -47,6 +48,18 @@ header h1{
   font-style: normal;
   letter-spacing: 3px; 
 }
+
+
+
+header h1, nav {
+  margin: 0; /* Ensure no extra space from margins */
+  padding: 0;
+}
+
+
+
+
+
 
 nav{
   grid-column: span 1;
@@ -85,6 +98,7 @@ main{
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 24px;
   display: grid;
+  width: 1200px
 }
 
 
@@ -107,6 +121,8 @@ aside p{
   width: auto;
   font-size: 25px;
   padding-left: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
 }
 
 section h1{ 
@@ -124,8 +140,9 @@ section h1{
 }
 
 .pic2 {
-  max-width: 400px;
-  margin-left: 50px;
+  max-width: 300px;
+  /* margin-left: 50px; */
+  float: right;
 }
 
 footer{
