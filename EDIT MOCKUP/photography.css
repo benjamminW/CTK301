@@ -79,7 +79,7 @@ header h1, nav {
     text-decoration: none;
     display: block;
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     transition: all .5s;
     
   }
@@ -148,15 +148,15 @@ header h1, nav {
     color: #010030;
   }
   
-
   .bi {
     color: #CECCA8;
-    font-size: 18px;
+    font-size: 22px; /* Adjust as needed */
     display: inline-block;
     padding: 5px;
-    opacity: 50%;
+    opacity: 90%;
     transition: all ease .3s;
   }
+
   .bi:hover {
     transform: scale(1.1);
     }
