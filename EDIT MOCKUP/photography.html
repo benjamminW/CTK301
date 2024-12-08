@@ -408,28 +408,33 @@
 
 	<script>   
 Fancybox.bind('[data-fancybox="gallery"]', {
-  Toolbar: true, // Enables toolbar with zoom, share, etc.
-  Thumbs: {
-    autoStart: true, // Show thumbnail preview in the lightbox
-  },
-  
+  preload: 4, // Preload only the next image
+  Thumbs: { autoStart: true }, // Keep thumbnails for navigation
+  zoom: { enabled: true }, // Enable zoom for detailed inspection
 });
 
+
 Fancybox.bind('[data-fancybox="gallery2"]', {
-  Toolbar: true, // Enables toolbar with zoom, share, etc.
-  Thumbs: {
-    autoStart: true, // Show thumbnail preview in the lightbox
-  },
-  
+  preload: 4, // Preload only the next image
+  Thumbs: { autoStart: true }, // Keep thumbnails for navigation
+  zoom: { enabled: true }, // Enable zoom for detailed inspection
 });
 
 Fancybox.bind('[data-fancybox="gallery3"]', {
-  Toolbar: true, // Enables toolbar with zoom, share, etc.
-  Thumbs: {
-    autoStart: true, // Show thumbnail preview in the lightbox
-  },
-  
+  preload: 4, // Preload only the next image
+  Thumbs: { autoStart: true }, // Keep thumbnails for navigation
+  zoom: { enabled: true }, // Enable zoom for detailed inspection
 });
+
+
+
+// Fancybox.bind('[data-fancybox="gallery3"]', {
+//   Toolbar: true, // Enables toolbar with zoom, share, etc.
+//   Thumbs: {
+//     autoStart: true, // Show thumbnail preview in the lightbox
+//   },
+  
+// });
 
 
 
