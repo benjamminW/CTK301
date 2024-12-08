@@ -186,12 +186,17 @@ header h1, nav {
   width: auto; 
   height: auto; 
   grid-column: span 3;
-
 }
+
+.scroll-container img{
+  width: 20px;
+}
+
 
 .scroll-gallery {
   display: inline-flex; 
   gap: 20px; 
+  
 }
 
 .scroll-gallery img {
